@@ -1,0 +1,20 @@
+PODS:
+  - ASMFunctional (0.1.0)
+  - Expecta (0.3.2)
+  - Specta (0.3.2)
+
+DEPENDENCIES:
+  - ASMFunctional (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  ASMFunctional:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASMFunctional: 7592f42188e4577545aa6384c81836500f520cfe
+  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
+
+COCOAPODS: 0.36.0.rc.1
