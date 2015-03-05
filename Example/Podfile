@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ASMFunctional', :exclusive => true do
+  pod "ASMFunctional", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ASMFunctional", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
