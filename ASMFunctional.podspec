@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
                        DESC
   s.author           = { "Andrew Molloy" => "amolloy@gmail.com" }
   s.source           = { :git => "git@bitbucket.org:amolloy/asmfunctional.git", :tag => s.version.to_s }
+  s.homepage		 = "http://andymolloy.net"
 
   s.requires_arc = true
 
